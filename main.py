@@ -1,6 +1,8 @@
 import speech_recognition as sr
 import time, serial, threading
+
 #py -3.8 main.py
+
 ser = serial.Serial("COM3", 9600, timeout=1)
 
 def main():
